@@ -1,2 +1,10 @@
 #! /bin/bash
-../analyze df=data/AmesWeatherData.csv if=input/in0.txt of=output/out0.txt
+
+echo ../analyze df=data/data0.csv if=input/in0.txt of=output/out0.txt
+../analyze df=data/data0.csv if=input/in0.txt of=output/out0.txt
+
+echo ../analyze df=data/data1.csv if=input/in0.txt of=output/out1.txt
+../analyze df=data/data1.csv if=input/in0.txt of=output/out1.txt
+
+echo ../analyze df=data/data1.csv if=input/in1.txt of=output/out2.txt
+../analyze df=data/data1.csv if=input/in1.txt of=output/out2.txt
